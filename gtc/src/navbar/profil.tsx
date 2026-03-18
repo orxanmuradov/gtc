@@ -1,8 +1,3 @@
-
-
-
-
-
 import './profil.css'
 import logo from './logo.png'
 import video from './video.mp4'
@@ -14,7 +9,7 @@ export default function Profil() {
       <video autoPlay muted loop className="hero" src={video}></video>
 
       <div className="nav">
-        <img src={logo} alt="" />
+        <img src={logo} alt=""/>
 
         <div className="text">
           <ul>
